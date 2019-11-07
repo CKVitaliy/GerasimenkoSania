@@ -1,0 +1,51 @@
+.footer {
+    background-color: #0d3c55;
+    padding-top: 50px;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer1 div ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer1 div ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer1 div ul li a:hover {
+    color: #f16c20;
+}
+
+.footer1 div button a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 25px;
+}
+
+.footer3 {
+    font-size: 10px;
+    color: lightgray;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.footer3 div a {
+    text-decoration: none;
+    color: lightgray;
+}

@@ -1,56 +1,33 @@
-.headerImg {
-    display: flex;
-    background-image: url("../images/header-image.jpg");
-    background-size: cover;
-    height: 623px;
-    color: white;
-
+.carouselImg {
+    max-height: 600px;
 }
 
-
-/*
-.headerImg {
-    background-image: url("../../assets/images/header-image.jpg");
-    background-size: cover;
-    height: 623px;
-    color: white;
-    display: flex;
-}
-
-.inner {
-    margin: auto;
-}
-
-.detalnisheButton {
-    margin: 50px 0;
-    font-size: 20px;
-    letter-spacing: 1px;
-    border: 3px solid #f16c20;
-    padding: 10px 25px;
-    border-radius: 30px;
-    background-color: rgba(241,108,32,0.4);
-}
-
-.detalnisheButton:hover {
-    background-color: rgba(241,108,32,0.85);
-}
-
-.main {
-    margin-top: 50px;
+.carouselShadow {
+    box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
 }
 
 .coloredLine {
     border-top: 2px solid #f16c20;
     width: 75px;
+    margin-bottom: 0;
 }
 
-.services {
+.perevagu {
     text-align: center;
+    border-bottom: 1px solid #eaebec;
+}
+
+.perevaguRow {
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
+.services {
+    margin-top: 50px;
+}
+
 .servicesText {
-    margin-top: 14px;
+    margin: 0;
 }
 
 .services a {
@@ -62,7 +39,17 @@
     opacity: 0.7;
 }
 
-.myImg {
+.pronas {
+    border-bottom: 1px solid #eaebec;
+    text-align: center;
+}
+
+.pronasRow {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.pronasImg {
     width: 100%;
     margin-bottom: 10px;
 }
@@ -72,8 +59,55 @@
     margin-top: 10px;
 }
 
-.partners {
+.poslygu {
+    border-bottom: 1px solid #eaebec;
     text-align: center;
+}
+
+.poslyguRow {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.poslyguImg {
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.poslyguImg:hover {
+    opacity: 0.8;
+}
+
+.poslyguImg a {
+    text-decoration: none;
+    color: white;
+}
+
+.poslyguImg a img {
+    width: 100%;
+}
+
+.poslyguText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.partneru {
+    border-bottom: 1px solid #eaebec;
+    text-align: center;
+}
+
+.partneruRow {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.partner {
+    margin-top: 50px;
 }
 
 .partnerFaceImg {
@@ -81,17 +115,23 @@
     height: 160px;
     border-radius: 50%;
     border: 5px solid #e5e5e5;
+    box-shadow: 0 0 0 5px #f5f5f5;
 }
 
 .divPosada {
     margin: 10px 0;
     color: #f16c20;
     line-height: 1.1;
-}ф
+}
 
 .divPosadaInfo {
     margin-top: 25px;
     font-style: italic;
+}
+
+.personalData {
+    margin-top: 50px;
+    text-align: center;
 }
 
 .addressImg {
@@ -103,7 +143,6 @@
     line-height: 1.1;
 }
 
-.image {
-    float: right;
+.personalDataInfo {
+    margin-bottom: 50px;
 }
-*/
